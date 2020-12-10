@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="D:\Kaviya_Exercise\CircusRestaurant\feedback\feedback.css">
+</head>
+
+
+<ul>
+    <img class="logo" src="images/logo.jpeg" width="50" height="45" alt="">
+
+    <div class="nav">
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">Shows</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+    </div>
+</ul>
+
+
+<body>
+    <div class="row">
+        <div class="column">
+            <img src="images/circus_img1.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/food_image1.jpg" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="images/Circus-main-promotional-hoop-shot.jpg" style="width:100%">
+        </div>
+    </div>
+    <div class="text1">
+        <h1>FEEDBACK</h1>
+        <h4 class="text2">Share your experience</h4>
+    </div>
+    <div class="description">
+        <p>We hope that you’ve enjoyed our show and food! We would be grateful if you could complete this form so that we can continue to make each show the best it can be. </p>
+    </div>
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="Email" placeholder="Your Email..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="age">Age:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="age" name="Age" placeholder="Your Age..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="food">Food Quality:</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="excellent" name="food" value="excellent">
+                    <label for="excellent">Excellent</label><br>
+                    <input type="radio" id="good" name="food" value="good">
+                    <label for="good">Good</label><br>
+                    <input type="radio" id="average" name="food" value="average">
+                    <label for="average">Average</label><br>
+
+                    <input type="radio" id="dissatisfied" name="food" value="dissatisfied">
+                    <label for="dissatisfied">Dissatisfied</label>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="show">Describe our show:</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="excellent" name="show" value="excellent">
+                    <label for="excellent">Excellent</label><br>
+                    <input type="radio" id="good" name="show" value="good">
+                    <label for="good">Good</label><br>
+                    <input type="radio" id="average" name="show" value="average">
+                    <label for="average">Average</label><br>
+
+                    <input type="radio" id="dissatisfied" name="show" value="dissatisfied">
+                    <label for="dissatisfied">Dissatisfied</label>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="showimpact">Did our show have a positive impact on you and/or your child?</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="yes" name="showimpact" value="yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="showimpact" value="no">
+                    <label for="no">No</label><br>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="overall">Overall Experience:</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="excellent" name="overall" value="excellent">
+                    <label for="excellent">Excellent</label><br>
+                    <input type="radio" id="good" name="overall" value="good">
+                    <label for="good">Good</label><br>
+                    <input type="radio" id="average" name="overall" value="average">
+                    <label for="average">Average</label><br>
+
+                    <input type="radio" id="dissatisfied" name="overall" value="dissatisfied">
+                    <label for="dissatisfied">Dissatisfied</label>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="comments">Any comments,questions or suggestions?</label><br>
+                </div>
+                <div class="col-75">
+                    <textarea id="comments" name="comments" placeholder="Write your comments.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+                <br>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
